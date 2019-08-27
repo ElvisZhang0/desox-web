@@ -7,9 +7,6 @@ import Home from '../views/Home.vue'
 Vue.use(VueRouter)
 
 export default new VueRouter({
-	state: {
-		Authorization: '222'
-	},
 	routes: [{
 			// 登录页
 			path: '/login',
